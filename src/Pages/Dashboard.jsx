@@ -21,11 +21,9 @@ const Dashboard = () => {
             <Image w={"100%"} src={dashboardFrame1} />
         </Box>
         <DashFeatures/>
-        
         <DashHand/>
         <DashSolution/>
         <PartnersComponent/>
-        
         <Box w={"90%"} margin={'auto'} mt={'5%'}>
             <Image w={"100%"} src={contactus} />
         </Box>
