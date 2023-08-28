@@ -1,8 +1,13 @@
+import { Box, Image } from '@chakra-ui/react'
 import React from 'react'
+
+import topAdImage from "../Images/topfigmaSS.png"
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <Box w={"100%"} >
+        <Image w={"100%"} src= {topAdImage} />
+    </Box>
   )
 }
 
